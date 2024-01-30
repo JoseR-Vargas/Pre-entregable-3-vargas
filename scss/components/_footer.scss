@@ -1,0 +1,67 @@
+footer {
+    background-color: $colorbase;
+    padding: 10px;
+    
+    p {
+        color:$colorsecundario;
+        text-align: center;
+    }
+    a {
+        color:$colorsecundario;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.links {
+    text-align: center;
+    color:$colorsecundario;
+    margin-top: 15px;
+}
+
+.logo-w {
+    text-align: center;
+    margin-top: 15px;
+}
+.logo-redesfooter {
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+@media only screen and ( min-width:501px) and (max-width: 600px) {
+
+    .logo-redesfooter {
+        width: 47px;
+        height: 47px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and ( min-width:601px) and (max-width: 800px) {
+
+    .logo-redesfooter {
+        width: 57px;
+        height: 57px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and ( min-width:801px) and (max-width: 1300px) {
+
+    .logo-redesfooter {
+        width: 67px;
+        height: 67px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+
+}

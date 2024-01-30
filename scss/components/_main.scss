@@ -1,0 +1,57 @@
+.photo-i {
+    width: 100%;
+}
+
+.index-3 {
+    width: 85%;
+    border: 3px solid $colorbase;
+    margin: 15px;
+}
+.index-1 {
+   @extend %centrado
+}
+
+@media only screen and ( min-width:501px) and (max-width: 600px) {
+
+    .index-3 {
+        width: 75%;
+        border: 3px solid $colorbase;
+        margin: 25px 25px 25px 60px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+}
+
+@media only screen and ( min-width:601px) and (max-width: 800px) {
+
+    .index-3 {
+        width: 75%;
+        border: 3px solid $colorbase;
+        margin: 25px 25px 25px 83px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+}
+
+@media only screen and ( min-width:801px) and (max-width: 1300px) {
+
+    .index-3 {
+        width: 65%;
+        border: 3px solid $colorbase;
+        margin: 25px 25px 25px 155px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+
+}
