@@ -3,18 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Productos</title>
+<!-- Bootstrap -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+<!-- linkeo css -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
     <!-- Header -->
+    <header>
+  <!-- Menu Hmburguesa Bootstrap -->
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fruteria Online.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./Productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./Nosotros.html">Nosotros</a>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+  </header>
     <!-- Fin Header -->
 
     <!-- Main -->
+    <h1 class="h1-productos">Fruteria Online</h1>
+    <h2 class="h2-productos">Desde las clásicas manzanas y plátanos hasta las exóticas mangostas y kiwis, ofrecemos una amplia variedad de frutas para satisfacer todos los gustos y preferencias</h2>
+
+   <div class="main-container">
+    <div class="productos">
+      <img class="item" src="../image/image-1.jpg" alt="">
+      <p class="texto-item">Banana Ecuador</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-2.jpg" alt="">
+      <p class="texto-item">mango</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-3.jpg" alt="">
+      <p class="texto-item">Naranja</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-4.jpg" alt="">
+      <p class="texto-item">Papa</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-5.jpg" alt="">
+      <p class="texto-item">Tomate</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-6.jpg" alt="">
+      <p class="texto-item">Frutilla</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-7.jpg" alt="">
+      <p class="texto-item">Lechuga</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-8.jpg" 
+      alt="">
+      <p class="texto-item">Cebolla</p>
+      <button class="boton">comprar</button>
+    </div>
+    <div class="productos">
+      <img class="item" src="../image/image-9.jpg" alt="">
+      <p class="texto-item">Cebolla Morada</p>
+      <button class="boton">comprar</button>
+    </div>
+   </div>
+
+
     <!-- Fin Main -->
 
     <!-- Footer -->
+     <footer>
+      <div class="links">   
+      <a href="#">| Terminos y condiciones |</a>
+      <a href="#">Politica de privacidad |</a>
+      <a href="#">Contactanos |</a>
+      <p>Nuestras Redes:</p>
+      </div> 
+      
+      <div class="logo-w">
+          <a href="#"><img class="logo-redesfooter" src="../image/logo-w.png" alt="logo-whatsapp"></a>
+          <a href="#"><img class="logo-redesfooter" src="../image/logo-ig.png" alt="logo-ig"></a>
+          <a href="#"><img class="logo-redesfooter" src="../image/logo-y.png" alt="logo-iy"></a>
+      </div>
+      
+      <p>Todos los derechos Reservados</p>
+      </footer>
     <!-- Fin Footer -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
     
 </body>
 </html>
