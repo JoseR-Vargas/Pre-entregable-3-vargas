@@ -29,80 +29,80 @@ color:$colorsecundario;
     margin: 10px 10px;
  }
 
-@media only screen and ( min-width:501px) and (max-width: 600px) {
+// @media only screen and ( min-width:501px) and (max-width: 600px) {
 
-    .index-3 {
-        width: 75%;
-        border: 1.5px solid $colorbase;
-        margin: 25px 25px 25px 75px;
-    }
+//     .index-3 {
+//         width: 75%;
+//         border: 1.5px solid $colorbase;
+//         margin: 25px 25px 25px 75px;
+//     }
 
-    .index-1 {
-        text-align: center;
-        margin: 40px 10px;
-    }
+//     .index-1 {
+//         text-align: center;
+//         margin: 40px 10px;
+//     }
 
-}
+// }
 
-@media only screen and ( min-width:601px) and (max-width: 800px) {
+// @media only screen and ( min-width:601px) and (max-width: 800px) {
 
-    .index-3 {
-        width: 75%;
-        border: 1.5px solid $colorbase;
-        margin: 25px 25px 25px 90px;
-    }
+//     .index-3 {
+//         width: 75%;
+//         border: 1.5px solid $colorbase;
+//         margin: 25px 25px 25px 90px;
+//     }
 
-    .index-1 {
-        text-align: center;
-        margin: 40px 10px;
-    }
+//     .index-1 {
+//         text-align: center;
+//         margin: 40px 10px;
+//     }
 
-    .boton {
-        margin-left: 45%;
-        background-color: $colorbase;
-        color:$colorsecundario;
-         }
-}
+//     .boton {
+//         margin-left: 45%;
+//         background-color: $colorbase;
+//         color:$colorsecundario;
+//          }
+// }
 
-@media only screen and ( min-width:801px) and (max-width: 1300px) {
+// @media only screen and ( min-width:801px) and (max-width: 1300px) {
 
-    .index-3 {
-        width: 50%;
-        border: 1.5px solid $colorbase;
-        margin: 25px 25px 25px 300px;
-    }
+//     .index-3 {
+//         width: 50%;
+//         border: 1.5px solid $colorbase;
+//         margin: 25px 25px 25px 300px;
+//     }
 
-    .index-1 {
-        text-align: center;
-        margin: 40px 10px;
-    }
+//     .index-1 {
+//         text-align: center;
+//         margin: 40px 10px;
+//     }
 
-    .boton {
-        margin-left: 45%;
-        background-color: $colorbase;
-        color:$colorsecundario;
-         }
-}
+//     .boton {
+//         margin-left: 45%;
+//         background-color: $colorbase;
+//         color:$colorsecundario;
+//          }
+// }
 
-@media only screen and ( min-width:1300px) and (max-width: 1600px) {
-    .index-3 {
-        width: 50%;
-        border: 1.5px solid $colorbase;
-        margin: 25px 25px 25px 360px;
+// @media only screen and ( min-width:1300px) and (max-width: 1600px) {
+//     .index-3 {
+//         width: 50%;
+//         border: 1.5px solid $colorbase;
+//         margin: 25px 25px 25px 360px;
        
-    }
+//     }
 
-    .index-1 {
-        text-align: center;
-        margin: 40px 10px;
-    }
+//     .index-1 {
+//         text-align: center;
+//         margin: 40px 10px;
+//     }
 
-.boton {
-    margin-left: 45%;
-    background-color: $colorbase;
-    color:$colorsecundario;
-     }
-}
+// .boton {
+//     margin-left: 45%;
+//     background-color: $colorbase;
+//     color:$colorsecundario;
+//      }
+// }
 // FIN PAGINA INDEX
 
 // PAGINA PRODUCTOS
@@ -138,39 +138,39 @@ color:$colorsecundario;
     text-align: center;
 }
 
-@media only screen and ( min-width:501px) and (max-width: 600px) {
-    .main-container {
-        margin-left: 30px;
-    }
-}
+// @media only screen and ( min-width:501px) and (max-width: 600px) {
+//     .main-container {
+//         margin-left: 30px;
+//     }
+// }
 
-@media only screen and ( min-width:601px) and (max-width: 800px) {
-    .main-container {
-        margin-left: 57px;
-        width: 85%;
-    }
-}
+// @media only screen and ( min-width:601px) and (max-width: 800px) {
+//     .main-container {
+//         margin-left: 57px;
+//         width: 85%;
+//     }
+// }
 
-@media only screen and ( min-width:801px) and (max-width: 1500px) {
-    .main-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    // .item {
-    //     width: 90%;
-    // }
-    .productos {
-        width: 20%;
-        border: 1.5px solid $colorbase;
-        margin-left: 30px;
-    }
+// @media only screen and ( min-width:801px) and (max-width: 1500px) {
+//     .main-container {
+//         display: flex;
+//         flex-wrap: wrap;
+//     }
+//     // .item {
+//     //     width: 90%;
+//     // }
+//     .productos {
+//         width: 20%;
+//         border: 1.5px solid $colorbase;
+//         margin-left: 30px;
+//     }
 
-    .boton {
-        margin-bottom: 1px;
-        background-color: $colorbase;
-        color:$colorsecundario;
- }
-}
+//     .boton {
+//         margin-bottom: 1px;
+//         background-color: $colorbase;
+//         color:$colorsecundario;
+//  }
+// }
 
 // Fin productos
 
@@ -184,7 +184,7 @@ color:$colorsecundario;
 .img-wsp {
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 10px;
 }
 
 .image-wsp {
@@ -200,13 +200,31 @@ color:$colorsecundario;
     font-style: italic;
 }
 
-@media only screen and ( min-width:801px) and (max-width: 1500px) {
-    .mapa-1 {
-        width: 70%;
-        padding: 13px;
-        margin-left: 180px;
-    }
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
 }
+
+#nombre {
+    margin: 10px;
+
+}
+
+.nombre {
+    margin: 10px;
+}
+
+// @media only screen and ( min-width:801px) and (max-width: 1500px) {
+//     .mapa-1 {
+//         width: 70%;
+//         padding: 13px;
+//         margin-left: 180px;
+//     }
+// }
 
 // pagina nosotros
 
@@ -215,15 +233,15 @@ color:$colorsecundario;
     padding: 10px;
 }
 
-@media only screen and ( min-width:801px) and (max-width: 1500px) {
-    .img-nosotros {
-        width: 70%;
-        padding: 10px;
-        margin-left: 17%;
-    }
+// @media only screen and ( min-width:801px) and (max-width: 1500px) {
+//     .img-nosotros {
+//         width: 70%;
+//         padding: 10px;
+//         margin-left: 17%;
+//     }
 
-    .h2-productos {
-        margin: 30px;
-        padding: 10px;
-    }
-}
+//     .h2-productos {
+//         margin: 30px;
+//         padding: 10px;
+//     }
+// }

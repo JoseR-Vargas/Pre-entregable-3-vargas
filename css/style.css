@@ -45,6 +45,114 @@ nav ul a {
   margin: 10px 10px;
 }
 
+.h1-productos {
+  margin: 50px 20px 20px 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.h2-productos {
+  margin: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.item {
+  width: 100%;
+}
+
+.productos {
+  width: 85%;
+  border: 1.5px solid #212529;
+  margin: 22px;
+  transition: transform 1s;
+}
+.productos:hover {
+  transform: scale(1.1);
+}
+
+.texto-item {
+  text-align: center;
+}
+
+.mapa-1 {
+  width: 100%;
+  padding: 13px;
+}
+
+.img-wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
+
+.image-wsp {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.contacto-wsp {
+  color: forestgreen;
+  font-weight: 600;
+  text-align: left;
+  font-style: italic;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+#nombre {
+  margin: 10px;
+}
+
+.nombre {
+  margin: 10px;
+}
+
+.img-nosotros {
+  width: 100%;
+  padding: 10px;
+}
+
+footer {
+  background-color: #212529;
+  padding: 10px;
+}
+footer p {
+  color: rgb(245, 245, 220);
+  text-align: center;
+}
+footer a {
+  color: rgb(245, 245, 220);
+  text-align: center;
+  text-decoration: none;
+}
+
+.links {
+  text-align: center;
+  color: rgb(245, 245, 220);
+  margin-top: 15px;
+}
+
+.logo-w {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.logo-redesfooter {
+  width: 37px;
+  height: 37px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
 @media only screen and (min-width: 501px) and (max-width: 600px) {
   .index-3 {
     width: 75%;
@@ -104,36 +212,6 @@ nav ul a {
     color: rgb(245, 245, 220);
   }
 }
-.h1-productos {
-  margin: 50px 20px 20px 20px;
-  text-align: center;
-  padding: 10px;
-}
-
-.h2-productos {
-  margin: 10px;
-  text-align: center;
-  font-size: 18px;
-}
-
-.item {
-  width: 100%;
-}
-
-.productos {
-  width: 85%;
-  border: 1.5px solid #212529;
-  margin: 22px;
-  transition: transform 1s;
-}
-.productos:hover {
-  transform: scale(1.1);
-}
-
-.texto-item {
-  text-align: center;
-}
-
 @media only screen and (min-width: 501px) and (max-width: 600px) {
   .main-container {
     margin-left: 30px;
@@ -161,42 +239,13 @@ nav ul a {
     color: rgb(245, 245, 220);
   }
 }
-.mapa-1 {
-  width: 100%;
-  padding: 13px;
-}
-
-.img-wsp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.image-wsp {
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-}
-
-.contacto-wsp {
-  color: forestgreen;
-  font-weight: 600;
-  text-align: left;
-  font-style: italic;
-}
-
 @media only screen and (min-width: 801px) and (max-width: 1500px) {
   .mapa-1 {
-    width: 70%;
+    width: 55%;
     padding: 13px;
-    margin-left: 180px;
+    margin-left: 260px;
   }
 }
-.img-nosotros {
-  width: 100%;
-  padding: 10px;
-}
-
 @media only screen and (min-width: 801px) and (max-width: 1500px) {
   .img-nosotros {
     width: 70%;
@@ -208,38 +257,6 @@ nav ul a {
     padding: 10px;
   }
 }
-footer {
-  background-color: #212529;
-  padding: 10px;
-}
-footer p {
-  color: rgb(245, 245, 220);
-  text-align: center;
-}
-footer a {
-  color: rgb(245, 245, 220);
-  text-align: center;
-  text-decoration: none;
-}
-
-.links {
-  text-align: center;
-  color: rgb(245, 245, 220);
-  margin-top: 15px;
-}
-
-.logo-w {
-  text-align: center;
-  margin-top: 15px;
-}
-
-.logo-redesfooter {
-  width: 37px;
-  height: 37px;
-  border-radius: 20px;
-  padding: 5px;
-}
-
 @media only screen and (min-width: 501px) and (max-width: 600px) {
   .logo-redesfooter {
     width: 47px;

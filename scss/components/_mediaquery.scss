@@ -1,0 +1,178 @@
+
+//  index
+@media only screen and ( min-width:501px) and (max-width: 600px) {
+
+    .index-3 {
+        width: 75%;
+        border: 1.5px solid $colorbase;
+        margin: 25px 25px 25px 75px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+}
+
+@media only screen and ( min-width:601px) and (max-width: 800px) {
+
+    .index-3 {
+        width: 75%;
+        border: 1.5px solid $colorbase;
+        margin: 25px 25px 25px 90px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+    .boton {
+        margin-left: 45%;
+        background-color: $colorbase;
+        color:$colorsecundario;
+         }
+}
+
+@media only screen and ( min-width:801px) and (max-width: 1300px) {
+
+    .index-3 {
+        width: 50%;
+        border: 1.5px solid $colorbase;
+        margin: 25px 25px 25px 300px;
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+    .boton {
+        margin-left: 45%;
+        background-color: $colorbase;
+        color:$colorsecundario;
+         }
+}
+
+@media only screen and ( min-width:1300px) and (max-width: 1600px) {
+    .index-3 {
+        width: 50%;
+        border: 1.5px solid $colorbase;
+        margin: 25px 25px 25px 360px;
+       
+    }
+
+    .index-1 {
+        text-align: center;
+        margin: 40px 10px;
+    }
+
+.boton {
+    margin-left: 45%;
+    background-color: $colorbase;
+    color:$colorsecundario;
+     }
+}
+// fin index
+
+// productos
+@media only screen and ( min-width:501px) and (max-width: 600px) {
+    .main-container {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and ( min-width:601px) and (max-width: 800px) {
+    .main-container {
+        margin-left: 57px;
+        width: 85%;
+    }
+}
+
+@media only screen and ( min-width:801px) and (max-width: 1500px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    // .item {
+    //     width: 90%;
+    // }
+    .productos {
+        width: 20%;
+        border: 1.5px solid $colorbase;
+        margin-left: 30px;
+    }
+
+    .boton {
+        margin-bottom: 1px;
+        background-color: $colorbase;
+        color:$colorsecundario;
+ }
+}
+
+// fin productos
+
+// contacto
+@media only screen and ( min-width:801px) and (max-width: 1500px) {
+    .mapa-1 {
+        width: 55%;
+        padding: 13px;
+        margin-left: 260px;
+    }
+}
+// fin contacto
+
+// nosotros
+@media only screen and ( min-width:801px) and (max-width: 1500px) {
+    .img-nosotros {
+        width: 70%;
+        padding: 10px;
+        margin-left: 17%;
+    }
+
+    .h2-productos {
+        margin: 30px;
+        padding: 10px;
+    }
+}
+// fin nosotros
+
+
+// Footer
+
+@media only screen and ( min-width:501px) and (max-width: 600px) {
+
+    .logo-redesfooter {
+        width: 47px;
+        height: 47px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and ( min-width:601px) and (max-width: 800px) {
+
+    .logo-redesfooter {
+        width: 57px;
+        height: 57px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and ( min-width:801px) and (max-width: 1300px) {
+
+    .logo-redesfooter {
+        width: 67px;
+        height: 67px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+
+}
