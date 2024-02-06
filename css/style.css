@@ -116,6 +116,20 @@ nav ul a {
   margin: 10px;
 }
 
+.enviar {
+  background-color: #212529;
+  color: rgb(245, 245, 220);
+}
+.enviar:hover {
+  background-color: rgb(245, 245, 220);
+  color: #212529;
+  transition: transform 1s;
+}
+.enviar:hover:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
 .img-nosotros {
   width: 100%;
   padding: 10px;

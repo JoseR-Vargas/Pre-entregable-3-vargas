@@ -218,6 +218,21 @@ color:$colorsecundario;
     margin: 10px;
 }
 
+.enviar {
+    background-color: $colorbase;
+    color: $colorsecundario;
+    &:hover {
+        background-color: $colorsecundario;
+        color: $colorbase;
+
+        transition: transform 1s;
+        &:hover {
+            transform: scale(1.1);
+
+            border-radius: 15px;
+        }   
+    }
+}
 // @media only screen and ( min-width:801px) and (max-width: 1500px) {
 //     .mapa-1 {
 //         width: 70%;
