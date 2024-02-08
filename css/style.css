@@ -4,6 +4,10 @@
   font-size: 18px;
 }
 
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   background-color: #212529;
   padding: 10px;
@@ -212,7 +216,7 @@ footer a {
 }
 @media only screen and (min-width: 1300px) and (max-width: 1600px) {
   .index-3 {
-    width: 50%;
+    width: 40%;
     border: 1.5px solid #212529;
     margin: 25px 25px 25px 360px;
   }
@@ -221,7 +225,7 @@ footer a {
     margin: 40px 10px;
   }
   .boton {
-    margin-left: 45%;
+    margin-left: 40%;
     background-color: #212529;
     color: rgb(245, 245, 220);
   }
@@ -249,6 +253,7 @@ footer a {
   }
   .boton {
     margin-bottom: 1px;
+    margin-left: 35%;
     background-color: #212529;
     color: rgb(245, 245, 220);
   }

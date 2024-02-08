@@ -57,7 +57,7 @@
 
 @media only screen and ( min-width:1300px) and (max-width: 1600px) {
     .index-3 {
-        width: 50%;
+        width: 40%;
         border: 1.5px solid $colorbase;
         margin: 25px 25px 25px 360px;
        
@@ -69,7 +69,7 @@
     }
 
 .boton {
-    margin-left: 45%;
+    margin-left: 40%;
     background-color: $colorbase;
     color:$colorsecundario;
      }
@@ -95,9 +95,7 @@
         display: flex;
         flex-wrap: wrap;
     }
-    // .item {
-    //     width: 90%;
-    // }
+
     .productos {
         width: 20%;
         border: 1.5px solid $colorbase;
@@ -106,6 +104,7 @@
 
     .boton {
         margin-bottom: 1px;
+        margin-left: 35%;
         background-color: $colorbase;
         color:$colorsecundario;
  }
